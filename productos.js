@@ -23,7 +23,7 @@ const MODELOS_IPHONE = [
   "iPhone 17 Pro",
   "iPhone 17 Pro Max",
 ];
-const PRECIO_ESTUCHE = "$20.000";
+const PRECIO_ESTUCHE = "$20.000 c/u";
 
 const CABLES_CARGADOR_20W = [
   "Tipo C a Tipo C",
