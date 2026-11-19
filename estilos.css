@@ -301,15 +301,19 @@ h1,h2,h3{font-family:var(--display);color:var(--blanco);margin:0}
   .bento{grid-template-columns:1fr}
   .bento-grande{grid-column:auto}
   .barra-catalogo{border-radius:20px}
-  .pills{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:4px;scrollbar-width:none}
+  .pills{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:4px;padding-right:12px;scrollbar-width:none}
   .pills::-webkit-scrollbar{display:none}
-  .pill{flex:0 0 auto}
+  .pill,.filtro-opcion{flex:0 0 auto;white-space:nowrap;height:36px;padding:0 14px;font-size:13.5px}
 }
 @media (max-width:500px){
   .hero{padding-top:92px}
-  .producto-info{padding:12px 12px 8px}
-  .producto-acciones{padding:4px 12px 12px}
-  .producto-nombre{font-size:15px}
+  .catalogo-grid{--gap:10px}
+  .producto-img{padding:12px}
+  .producto-info{padding:10px 10px 6px}
+  .producto-acciones{padding:4px 10px 10px;gap:6px}
+  .boton-agregar,.boton-ver{height:36px;padding:0 8px;font-size:12.5px;border-radius:10px}
+  .producto-nombre{font-size:14.5px}
+  .precio-actual{font-size:13.5px;padding:3px 10px}
   .carrito-botones{grid-template-columns:1fr}
   .cierre-base{padding-bottom:110px}
 }
