@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JB STORE | Accesorios Apple y tecnología seleccionada</title>
+  <meta name="description" content="JB STORE: tecnología que te conecta, calidad que te sorprende. Accesorios Apple y tecnología seleccionada con envíos a todo el país desde Los Andes Sotomayor, Nariño.">
+  <meta name="theme-color" content="#080808">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JB STORE | Tecnología que te conecta">
+  <meta property="og:description" content="Accesorios Apple y tecnología seleccionada con envíos a todo el país.">
+  <meta property="og:image" content="imagenes/marca/logo-600.jpg">
+
+  <link rel="icon" href="imagenes/marca/logo-192.jpg">
+  <link rel="apple-touch-icon" href="imagenes/marca/logo-192.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300..700&display=swap">
+  <link rel="stylesheet" href="estilos.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JB STORE",
+    "slogan": "Tecnología que te conecta, calidad que te sorprende.",
+    "telephone": "+573146376355",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Andes Sotomayor",
+      "addressRegion": "Nariño",
+      "addressCountry": "CO"
+    },
+    "sameAs": ["https://www.tiktok.com/@jb.store2006"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Gradientes SVG -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-carga" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f7d983"/>
+        <stop offset=".55" stop-color="#e5b84b"/>
+        <stop offset="1" stop-color="#8f6d1e"/>
+      </linearGradient>
+      <linearGradient id="g-hero" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f7d983"/>
+        <stop offset=".5" stop-color="#e5b84b"/>
+        <stop offset="1" stop-color="#8f6d1e"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <a class="salto" href="#catalogo">Saltar al catálogo</a>
+
+  <!-- Pantalla de carga -->
+  <div id="pantalla-carga" class="pantalla-carga" role="status" aria-label="Cargando JB STORE">
+    <div class="carga-marco">
+      <svg class="carga-anillo" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="url(#g-carga)" stroke-width="2" stroke-linecap="round" stroke-dasharray="210 80"/>
+      </svg>
+      <img src="imagenes/marca/logo-192.jpg" alt="" width="84" height="84">
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="cabecera" id="cabecera">
+    <a class="marca" href="#inicio" aria-label="JB STORE, ir al inicio" onclick="cerrarMenu()">
+      <img src="imagenes/marca/logo-192.jpg" alt="" width="38" height="38">
+      <span class="marca-texto">JB STORE</span>
+    </a>
+
+    <nav class="menu-nav" id="nav-principal" aria-label="Principal">
+      <a href="#catalogo" onclick="cerrarMenu()">Catálogo</a>
+      <a href="#destacados" onclick="cerrarMenu()">Destacados</a>
+      <a href="#nosotros" onclick="cerrarMenu()">Nosotros</a>
+      <a href="#contacto" onclick="cerrarMenu()">Contacto</a>
+    </nav>
+
+    <div class="cabecera-acciones">
+      <a class="boton-primario boton-wa-cabecera" href="https://wa.me/573146376355?text=Hola%20JB%20STORE%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 21.9c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2.1 12C2.1 6.5 6.5 2.1 12 2.1c2.6 0 5.1 1 7 2.9A9.8 9.8 0 0 1 21.9 12c0 5.5-4.4 9.9-9.9 9.9Zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1l-1 1.2c-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.7.1-.2.1-.4 0-.5l-.9-2.1c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button type="button" class="boton-menu" id="menu-hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-principal" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- Inicio -->
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <div class="hero-banner">
+        <div class="hero-grid">
+
+          <div class="contenido-inicio">
+            <span class="etiqueta">Envíos a todo el país</span>
+            <h1 id="titulo-hero">Tecnología que te conecta, <span class="oro-texto">calidad que te sorprende.</span></h1>
+            <p class="subtitulo">Innovación • Estilo • Calidad • Confianza. Accesorios Apple y tecnología seleccionada con envíos a todo el país.</p>
+            <div class="hero-botones">
+              <a class="boton-primario" href="#catalogo">Ver catálogo</a>
+              <a class="boton-secundario" href="#nosotros">Cómo enviamos</a>
+            </div>
+          </div>
+
+          <div class="hero-emblema">
+            <div class="vitrina">
+              <div class="vitrina-aro">
+                <svg class="anillo" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="1"/></svg>
+                <img src="imagenes/marca/logo-600.jpg" alt="Logo de JB STORE: león dorado" width="300" height="300" fetchpriority="high">
+              </div>
+              <p class="vitrina-pie">Selección Apple • 1.1 &amp; Original</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalogo -->
+    <section class="seccion" id="catalogo" aria-labelledby="titulo-catalogo">
+      <div class="contenedor">
+        <header class="seccion-cabecera">
+          <span class="etiqueta">Catálogo completo</span>
+          <h2 class="titulo-seccion" id="titulo-catalogo">Elige lo tuyo</h2>
+        </header>
+
+        <div class="barra-catalogo">
+          <label class="buscador" for="buscador-producto">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <span class="sr-only">Buscar productos</span>
+            <input type="text" id="buscador-producto" placeholder="Buscar AirPods, Watch, cargador…" autocomplete="off" oninput="buscarProducto(this.value)">
+            <button type="button" id="boton-limpiar-busqueda" class="boton-limpiar-busqueda" onclick="limpiarBusqueda()" aria-label="Limpiar búsqueda" hidden>&times;</button>
+          </label>
+
+          <div class="pills categorias" id="categorias" role="group" aria-label="Filtrar por categoría">
+            <button type="button" class="pill boton-categoria activa" data-categoria="todos" aria-pressed="true" onclick="mostrarCatalogo('todos', this)">Todos</button>
+            <button type="button" class="pill boton-categoria" data-categoria="audifonos" aria-pressed="false" onclick="mostrarCatalogo('audifonos', this)">Audífonos</button>
+            <button type="button" class="pill boton-categoria" data-categoria="smartwatches" aria-pressed="false" onclick="mostrarCatalogo('smartwatches', this)">Smartwatches</button>
+            <button type="button" class="pill boton-categoria" data-categoria="cargadores" aria-pressed="false" onclick="mostrarCatalogo('cargadores', this)">Cargadores</button>
+            <button type="button" class="pill boton-categoria" data-categoria="estuches" aria-pressed="false" onclick="mostrarCatalogo('estuches', this)">Estuches</button>
+          </div>
+
+          <div class="pills pills-marca" id="filtros-marca" role="group" aria-label="Filtrar por calidad"></div>
+        </div>
+
+        <div class="catalogo-grid" id="contenedor-catalogo" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Destacados -->
+    <section class="seccion seccion-destacada" id="destacados" aria-labelledby="titulo-destacados">
+      <div class="contenedor">
+        <header class="seccion-cabecera">
+          <span class="etiqueta">Lo más pedido</span>
+          <h2 class="titulo-seccion" id="titulo-destacados">Productos destacados</h2>
+        </header>
+        <div class="carrusel" id="contenedor-destacados" tabindex="0" aria-label="Productos destacados, desliza para ver más"></div>
+      </div>
+    </section>
+
+    <!-- Nosotros y envios -->
+    <section class="seccion" id="nosotros" aria-labelledby="titulo-nosotros">
+      <div class="contenedor">
+        <header class="seccion-cabecera">
+          <span class="etiqueta">Sobre JB STORE &amp; Envíos</span>
+          <h2 class="titulo-seccion" id="titulo-nosotros">Cerca de ti, <span class="oro-texto">sin importar dónde estés</span></h2>
+        </header>
+
+        <div class="bento" id="beneficios">
+          <article class="bento-card bento-grande">
+            <span class="bento-icono" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </span>
+            <h3>Los Andes Sotomayor, Nariño</h3>
+            <p>Somos una tienda de tecnología con accesorios Apple y productos seleccionados. Cada pedido se prepara con cuidado y se confirma contigo antes de salir.</p>
+            <ul class="datos-nosotros">
+              <li>Ubicación: Los Andes Sotomayor, Nariño</li>
+              <li>Transportadora: Interrapidísimo</li>
+              <li>Jornadas de envío: jueves y viernes</li>
+            </ul>
+          </article>
+
+          <article class="bento-card">
+            <span class="bento-icono" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>
+            </span>
+            <h3>Envíos nacionales</h3>
+            <p>Despachamos por <strong>Interrapidísimo</strong> los <strong>jueves y viernes</strong> a todo el país.</p>
+          </article>
+
+          <article class="bento-card">
+            <span class="bento-icono" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.5-5.5A8.5 8.5 0 1 1 21 12Z"/></svg>
+            </span>
+            <h3>Atención directa por WhatsApp</h3>
+            <p>Escríbenos, resolvemos tus dudas y confirmamos disponibilidad al instante.</p>
+            <a class="enlace-oro" href="https://wa.me/573146376355" target="_blank" rel="noopener noreferrer">Escribir ahora →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Contacto y footer -->
+  <footer class="cierre" id="contacto" aria-labelledby="titulo-contacto">
+    <div class="contenedor cierre-grid">
+      <div class="cierre-marca">
+        <img src="imagenes/marca/logo-192.jpg" alt="" width="56" height="56" loading="lazy">
+        <h2 id="titulo-contacto">Hablemos</h2>
+        <p>Tecnología que te conecta, calidad que te sorprende.</p>
+      </div>
+
+      <div class="cierre-enlaces">
+        <a class="contacto-link" href="https://wa.me/573146376355" target="_blank" rel="noopener noreferrer">
+          <span class="contacto-icono" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.5-5.5A8.5 8.5 0 1 1 21 12Z"/></svg>
+          </span>
+          <span><strong>WhatsApp</strong><small>+57 314 637 6355</small></span>
+        </a>
+        <a class="contacto-link" href="https://www.tiktok.com/@jb.store2006" target="_blank" rel="noopener noreferrer">
+          <span class="contacto-icono" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 2h-3.2v13.2a2.8 2.8 0 1 1-2-2.7V9.2a6 6 0 1 0 5.2 5.9V8.4a7.3 7.3 0 0 0 4.2 1.3V6.5A4.3 4.3 0 0 1 16.6 2Z"/></svg>
+          </span>
+          <span><strong>TikTok</strong><small>@jb.store2006</small></span>
+        </a>
+        <a class="contacto-link" href="https://www.google.com/maps/search/?api=1&query=Los+Andes+Sotomayor+Nari%C3%B1o" target="_blank" rel="noopener noreferrer">
+          <span class="contacto-icono" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          </span>
+          <span><strong>Ubicación</strong><small>Los Andes Sotomayor, Nariño</small></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="contenedor cierre-base">
+      <p>© <span id="anio">2026</span> JB STORE · Los Andes Sotomayor, Nariño</p>
+      <p>Envíos por Interrapidísimo · jueves y viernes</p>
+    </div>
+  </footer>
+
+  <!-- Botones flotantes -->
+  <button type="button" class="flotante flotante-carrito" id="carrito-flotante" aria-label="Abrir carrito" onclick="abrirCarrito()">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.6 12.4a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 7H6"/></svg>
+    <span class="carrito-contador" id="carrito-contador" hidden>0</span>
+  </button>
+
+  <a class="flotante flotante-wa" href="https://wa.me/573146376355" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.5-5.5A8.5 8.5 0 1 1 21 12Z"/></svg>
+  </a>
+
+  <!-- Modal detalle producto -->
+  <div class="modal modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-nombre" onclick="cerrarDetalleSiEsFondo(event)">
+    <div class="modal-caja modal-contenido modal-producto">
+      <button type="button" class="modal-cerrar" aria-label="Cerrar detalle" onclick="cerrarDetalle()">&times;</button>
+
+      <div class="modal-galeria">
+        <div class="galeria-principal" id="galeria-principal">
+          <div class="modal-spinner" id="modal-spinner" aria-hidden="true"></div>
+          <img id="modal-imagen" src="" alt="" width="560" height="560">
+          <button type="button" class="galeria-flecha galeria-prev" id="galeria-prev" aria-label="Imagen anterior" onclick="cambiarImagen(-1)" hidden>&lsaquo;</button>
+          <button type="button" class="galeria-flecha galeria-next" id="galeria-next" aria-label="Imagen siguiente" onclick="cambiarImagen(1)" hidden>&rsaquo;</button>
+          <span class="galeria-contador" id="galeria-contador" aria-live="polite" hidden></span>
+        </div>
+        <div class="galeria-miniaturas" id="galeria-miniaturas" role="tablist" aria-label="Miniaturas del producto" hidden></div>
+      </div>
+
+      <div class="modal-info">
+        <span class="modal-marca" id="modal-marca"></span>
+        <h3 id="modal-nombre"></h3>
+
+        <div id="modal-precios" class="precios-modal">
+          <s class="precio-anterior" id="modal-precio-anterior"></s>
+          <span class="modal-precio" id="modal-precio-promocion"></span>
+        </div>
+
+        <div id="modal-variantes-wrapper" class="modal-variantes" hidden>
+          <p class="etiqueta-variante" id="modal-tipo-variante">Elige una opción:</p>
+          <div id="modal-selector-variante" class="selector-variantes"></div>
+          <span class="modal-precio" id="modal-precio-variante"></span>
+        </div>
+
+        <p class="modal-descripcion" id="modal-descripcion"></p>
+
+        <div class="modal-acciones-vertical">
+          <a id="modal-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="boton-primario boton-ancho">Pedir por WhatsApp</a>
+          <button type="button" class="boton-secundario boton-ancho" onclick="agregarAlCarritoDesdeModal()">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal carrito -->
+  <div class="modal modal-overlay" id="modal-carrito-overlay" role="dialog" aria-modal="true" aria-labelledby="titulo-carrito" onclick="cerrarCarritoSiEsFondo(event)">
+    <div class="modal-caja modal-carrito-caja">
+      <button type="button" class="modal-cerrar" aria-label="Cerrar carrito" onclick="cerrarCarrito()">&times;</button>
+      <h3 id="titulo-carrito" class="carrito-titulo">Tu carrito</h3>
+
+      <div class="carrito-lista" id="lista-carrito"></div>
+
+      <div class="carrito-pie">
+        <div class="carrito-total"><strong id="carrito-total">Total: $0</strong></div>
+        <p class="carrito-nota">El costo de envío se confirma por WhatsApp (Interrapidísimo, jueves y viernes).</p>
+        <div class="carrito-botones">
+          <button type="button" class="boton-secundario" onclick="pagarConNequi()">Pagar con Nequi</button>
+          <button type="button" class="boton-primario" onclick="enviarCarritoPorWhatsApp()">Pedir por WhatsApp</button>
+        </div>
+        <button type="button" class="carrito-vaciar" onclick="vaciarCarrito()">Vaciar carrito</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast-mg" role="status" aria-live="polite"></div>
+
+  <script>
+    (function () {
+      var c = document.getElementById("pantalla-carga");
+      var a = document.getElementById("anio");
+      if (a) a.textContent = new Date().getFullYear();
+      if (!c) return;
+      var quitar = function () {
+        c.classList.add("listo");
+        setTimeout(function () { c.remove(); }, 500);
+      };
+      if (sessionStorage.getItem("jbv")) { c.remove(); return; }
+      sessionStorage.setItem("jbv", "1");
+      window.addEventListener("load", function () { setTimeout(quitar, 500); });
+      setTimeout(quitar, 3500);
+    })();
+  </script>
+  <script src="productos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

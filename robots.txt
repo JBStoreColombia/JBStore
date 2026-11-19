@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mgstorecolombia.github.io/MGStore/sitemap.xml
