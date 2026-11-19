@@ -23,13 +23,13 @@ const MODELOS_IPHONE = [
   "iPhone 17 Pro",
   "iPhone 17 Pro Max",
 ];
-const PRECIO_ESTUCHE = "$20.000 c/u";
+const PRECIO_ESTUCHE = "$19.990 c/u";
 
 const CABLES_CARGADOR_20W = [
   "Tipo C a Tipo C",
   "Tipo C a Lightning",
 ];
-const PRECIO_CARGADOR_20W = "$40.000";
+const PRECIO_CARGADOR_20W = "$39.990";
 
 const productos = {
   audifonos: [
@@ -37,7 +37,7 @@ const productos = {
       nombre: "AirPods Pro 2",
       marca: "Calidad 1.1",
       desc: "Calidad de sonido con cancelación de ruido y almohadillas intercambiables.",
-      precioPromocion: "$70.000",
+      precioPromocion: "$69.990",
       destacado: true,
       imagenes: [
         "imagenes/productos/airpods-pro-2-1.jpg",
@@ -47,7 +47,7 @@ const productos = {
       nombre: "AirPods Pro 3",
       marca: "Calidad 1.1",
       desc: "Sonido increíble con cancelación de ruido, alta definición y función de traducción de idiomas.",
-      precioPromocion: "$90.000",
+      precioPromocion: "$89.990",
       destacado: true,
       imagenes: [
         "imagenes/productos/airpods-pro-3-1.jpg",
@@ -62,7 +62,7 @@ const productos = {
       nombre: "Apple Watch Serie 11 46mm",
       marca: "Calidad 1.1",
       desc: "Calidad 1.1, diseño premium, pantalla increíble y múltiples funciones como monitoreo de salud, recibir notificaciones y llamadas.",
-      precioPromocion: "$150.000",
+      precioPromocion: "$149.990",
       destacado: true,
       imagenes: [
         "imagenes/productos/apple-watch-s11-46mm-1.jpg",
@@ -87,7 +87,7 @@ const productos = {
       nombre: "Cubo de Carga 40W Original Apple",
       marca: "Original Apple",
       desc: "Cubo de carga rápida de 40 W: segura y eficiente. ¡Potencia y calidad para tu dispositivo!",
-      precioPromocion: "$90.000",
+      precioPromocion: "$89.990",
       destacado: true,
       img: "imagenes/productos/cubo-40w-apple.jpg",
     },
